@@ -26,3 +26,17 @@ Help and man can be very useful; since there are so many commands to learn it’
 *help* – lists some shell commands and their arguments, can also follow with the name of the command to get more info
 
 #### 1.4 Forking and Cloning
+**- If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?**
+First, make sure you are signed in to Github before attempting any of these.
+
+To create a new repository: Whether you are on the main page or any other page within Github, you should see a grey navigation bar across the top of the page with the Github octocat logo on the left side and a series of buttons on the right side, one of which is a “+” button. Click on it then select “New repository” from the pop-up and you will be taken to the page for creating a new repository. On this page you can give your repository a name, description, choose whether it will be public or private, add a license, and a few other options. Then hit “create repository” and it will take you to your new repository’s page.
+
+To fork a repository: Navigate to the URL of the repository you would like to fork. Just beneath the grey navigation bar on the right side, you should see three options, the rightmost being “fork”. Click this and it should create a copy of the repository on your own account and take you to its page.
+
+To clone a repository: On the repository’s Github page, there should be a box labeled “HTTPS” with the repo’s URL in it. Copy this URL. Then, in your command line, make sure you are in the directory you want the repository to be in, otherwise navigate to it. Type in “git clone” followed by the URL you just copied and it should be cloned to your computer. You may be prompted to enter in your Github username/password to authenticate.
+
+You would fork a repository instead of creating a new one when you want to work on someone else’s existing repository (you cannot fork your own repositories). Forking that repository essentially creates your own copy of it, so you can make changes to the files without affecting the original repository. You can either continue to keep them separate or, you can request that the owner of the original repository adds your changes to the original (you cannot add your changes to the original on your own).
+
+**- What struggles did you have setting up git and GitHub? What did you learn in the process?**
+
+I have used both git and Github before, and so far it has been a review of things I have already done with them so I have not met any major struggles so far. I already had a Github account set up, but I did use this opportunity to clean it up by getting rid of a couple of repositories I don’t need anymore. I also already had git set up on my computer but as it has been a while, I removed it and added it again just to remind myself if the process, and I did not hit any snags.
