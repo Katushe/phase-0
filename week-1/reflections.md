@@ -42,7 +42,7 @@ Help and man can be very useful; since there are so many commands to learn it’
 *help* – lists some shell commands and their arguments, can also follow with the name of the command to get more info
 
 #### 1.4 Forking and Cloning
-__ * If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?__
+__1. If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?__
 
 First, make sure you are signed in to Github before attempting any of these.
 
@@ -54,6 +54,6 @@ To clone a repository: On the repository’s Github page, there should be a box 
 
 You would fork a repository instead of creating a new one when you want to work on someone else’s existing repository (you cannot fork your own repositories). Forking that repository essentially creates your own copy of it, so you can make changes to the files without affecting the original repository. You can either continue to keep them separate or, you can request that the owner of the original repository adds your changes to the original (you cannot add your changes to the original on your own).
 
-__ * What struggles did you have setting up git and GitHub? What did you learn in the process?__
+__ 2.What struggles did you have setting up git and GitHub? What did you learn in the process?__
 
 I have used both git and Github before, and so far it has been a review of things I have already done with them so I have not met any major struggles so far. I already had a Github account set up, but I did use this opportunity to clean it up by getting rid of a couple of repositories I don’t need anymore. I also already had git set up on my computer but as it has been a while, I removed it and added it again just to remind myself if the process, and I did not hit any snags.
