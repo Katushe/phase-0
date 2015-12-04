@@ -54,6 +54,6 @@ To clone a repository: On the repository’s Github page, there should be a box 
 
 You would fork a repository instead of creating a new one when you want to work on someone else’s existing repository (you cannot fork your own repositories). Forking that repository essentially creates your own copy of it, so you can make changes to the files without affecting the original repository. You can either continue to keep them separate or, you can request that the owner of the original repository adds your changes to the original (you cannot add your changes to the original on your own).
 
-__* What struggles did you have setting up git and GitHub? What did you learn in the process?__
+__2. What struggles did you have setting up git and GitHub? What did you learn in the process?__
 
 I have used both git and Github before, and so far it has been a review of things I have already done with them so I have not met any major struggles so far. I already had a Github account set up, but I did use this opportunity to clean it up by getting rid of a couple of repositories I don’t need anymore. I also already had git set up on my computer but as it has been a while, I removed it and added it again just to remind myself if the process, and I did not hit any snags.
