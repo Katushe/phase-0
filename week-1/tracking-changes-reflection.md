@@ -1,17 +1,26 @@
 **How does tracking and adding changes make developers' lives easier?**
 
+When you have a big project, there's usually a lot of files involved, so using git to track changes helps to keep everything more organized and to keep a history of what has been changed when you go to commit.
+
 **What is a commit?**
+
 A commit is the way you save your work; it keeps a version of your current files/code. Then, if you ever make a change you don't like or that breaks your code, you can go back to a version from a previous commit instead of having to manually get rid of those changes.
 
 **What are the best practices for commit messages?**
 
-Best practices include writing your changes in present tense instead of past tense,
+One best practice that I foresee giving me trouble is writing changes in imperative tense instead of past tense or present tense (e.g. add not added or adds), since it just seems more natural to write in past tense. Other best practices include first writing a short summary followed by a more indepth description of what you changed, and wrapping your text to 72 columns so it doesn't run off the side of the page and require scrolling.
 
 **What does the HEAD^ argument mean?**
 
-HEAD is used to refer to commits. HEAD on its own refers to your current commit while HEAD^ is your previous commit.
+HEAD is used to refer to commits. HEAD on its own refers to your current commit while HEAD^ is your previous commit. This argument is helpful if you've just commited something but realized you don't like the change and want to return to the previous commit using "git reset --soft HEAD^".
 
 **What are the 3 stages of a git change and how do you move a file from one stage to the other**
+
+The first stage is untracked changes, which is when you create a new file or edit a new file that has not been added before. To move to the next stage you must "git add" that file to track it.
+
+The next stage is tracked changes, which is when you make a new change to a file that has previously been added. To move to the next stage you must "git add" that file to stage it.
+
+The next stage is staged changes, which is when you've done a "git add" on all your files and they're ready to be commited. So you can now actually commit them with "git commit".
 
 **Write a handy cheatsheet of the commands you need to commit your changes?**
 
