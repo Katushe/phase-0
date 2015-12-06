@@ -1,5 +1,6 @@
 **Paste a link to your [USERNAME].github.io repository.**
-[Katush.github.io repository](https://github.com/Katushe/Katushe.github.io)
+
+[Katushe.github.io](https://github.com/Katushe/Katushe.github.io)
 
 **Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.**
 
