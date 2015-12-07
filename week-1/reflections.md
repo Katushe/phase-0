@@ -1,4 +1,29 @@
 #### 1.1 Think About Time
+
+**1.  Which time management and productivity ideas did you learn about?**
+
+This is maybe a strange thing to zero in on, but when reading the meditation article, I noticed in one of the images they showed a person knitting. Now, I’ve tried the kind of meditation where you sit still, close your eyes, and try to focus many times and it never worked for me, I get too restless. However, I knit a lot and find it quite relaxing but never thought about it as a form of meditation before. So I was intrigued by the idea of “moving meditation” and tried to find out more about it, as I feel it might work better for me than other forms of meditation. One of the techniques I learned about is “walking meditation” which is where you walk slowly and continuously while focusing on the movement of your body. There’s also “dance meditation”, where you focus on the rhythm of music and just let go, jumping and moving around without overthinking. Knitting probably falls under “hand movement meditation”, where you focus on moving your hands mindfully. And there’s many more!
+
+**2.  What is "Time Boxing?" How can you use it in Phase 0?**
+
+Time Boxing is when you choose a certain amount of time to work for, say half an hour, to work towards completing a goal, and then reflecting on what was done during that time. You don’t expect to complete the goal in that allotted time, the focus is more on just working steadily during that time. The purpose is to move away from the practice of just working until something is completed and then seeing how much time it took. By working for a set period of time and then reflecting on what you did, it gives you a little break, which can help to clear your mind, and also makes it easier to evaluate whether you’re going in the right direction or if you should begin a new approach when you start working again.
+
+**3.  How do you manage your time currently?**
+
+I make myself a schedule ahead of time of what I need to get done, and when I should get it done by, and then try my hardest to stick to that schedule. I always make sure to put aside some time to do something I enjoy even if I have a lot to get done, usually I give myself some time at the end of the day to knit while watching something on Netflix, or read a book.
+
+**4.  Is your current strategy working? If not, why not?**
+
+Sometimes it does, and sometimes it doesn’t. When I’m feeling really motivated and I get into the zone, I am able to follow along with my schedule and everything works out. Every now and then, though, when something ends up taking a lot more time than I expect and throws my schedule out of whack, it adds to my stress level, and I fall even more behind.
+
+**5.  Can/will you employ any of them? If so, how?**
+
+I do still want to plan a schedule ahead because without giving myself some structure I tend to procrastinate and then everything just piles up. However, I will try to focus more on making progress rather than setting myself a deadline for finishing something, as I am sure it’s going to get harder and harder to gauge how much time something will take, and I don’t want to stress myself out if I can’t stick to my schedule. I definitely plan to keep setting time aside for my knitting as a stress reliever (plus Christmas is coming up, and I love to knit gifts for friends :) ).
+
+**6.  What is your overall plan for Phase 0 time management?**
+
+I am going to make myself a schedule to work with, but instead of listing what things I need to get done and setting deadlines for myself, I am going to set specific time windows for each day that I will dedicate to working on tasks for DBC. I am also going to try to integrate a time boxing/pomodoro technique, where I work for a set period of time and then stop to reflect a bit on what I’ve accomplished, so I can focus on what I did do rather than what I didn’t finish. I am also going to take more scheduled breaks, as I tend to just take work until I really feel like I need a break (which usually leads to me getting distracted too often).
+
 #### 1.2 The Command Line
 
 **1. What is a shell? What is "bash"?**
