@@ -20,7 +20,7 @@ The primary action would be to look through my portfolio, and then based on whet
 
 There is a lot of emphasis placed on user-centered design now. Websites that have a lot of tasks need to be pleasant and effiecient to attract users and websites in general have to be able to stand out amongst others.
 
-**What is user experience design and why is it valuable? **
+**What is user experience design and why is it valuable?**
 
 User experience design is designing a website while keeping in mind how a person will feel when interacting with it. This includes taking into consideration the ease of use, utility, and efficiency of the website, as well as accessibility-for people using screen readers, those with slow internet connections, or those with old mobile devices. It is valuable because the userbase of the Web has grown a lot in recent years, but so has the complexity of what websites can do, making it more important that your users can properly enjoy your website.
 
