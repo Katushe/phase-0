@@ -1,0 +1,130 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  color:#000080;
+  background-color:#ffffff;
+  font-family: "Times New Roman", serif, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+.banner {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color: #f6f6f6;
+  box-shadow: 0 0 2px rgba(0,0,0,0.10), 0 1px 1px rgba(0,0,0,0.15);
+}
+.profile-photo img {
+  margin: 25px 0 0 0;
+  height: 200px;
+  border-radius: 100%;
+}
+h1 {
+ font-size: 16px;
+ margin: 0;
+ padding: 0;
+}
+h2 {
+ margin: 0;
+ padding: 0;
+ font-size: 14px;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.bigger {
+  font-size: 34px;
+  font-weight: bold;
+}
+.smaller {
+  font-size: 12px;
+}
+
+ul li {
+  margin: 0 0 25px 0;
+  padding: 0;
+  font-size: 16px;
+}
+.left-column {
+  margin: 0 0 20px 120px;
+  padding: 0;
+  display: inline;
+  float: left;
+  width: 40%;
+}
+.right-column {
+  margin: 0 95px 20px 0;
+  padding: 0;
+  display: inline;
+  float: right;
+  width: 40%;
+}
+a:link{
+  color:#800080;
+}
+a:visited{
+  color:#ff0000;
+}
+.date {
+  display: block;
+  font-size: 10px;
+}
+
+.linebreak-top {
+  margin: 15px 8px 15px 8px;
+  display: block;
+  height: 1px;
+  background-color: #7A7A7A;
+}
+.linebreak-bottom {
+  margin: 15px 8px 15px 0;
+  display: block;
+  height: 1px;
+  background-color: #7A7A7A;
+}
+
+footer {
+  display: block;
+  margin:0 0 20px 8px;
+  clear: both;
+}
+.img {
+  margin: auto;
+  width: 100px;
+}
+.center {
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+}
+.foot-text {
+  font-size: 13px;
+}
+.disclaimer {
+  font-size: 16px;
+}
+.copyright {
+  font-size: 10px;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+  You have to put the link within the <head> tag and you have to be sure you have the correct relative path for it to link properly. You also have to add certain attributes to the link: rel, which signifies the releationship between the html file and the linked file (for css, rel = "stylesheet"), type, which signifies the media type of the linked file (for css, type = "text/css"), and of course the actual link to the file with href.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+  We divided the links into two unordered lists and then played with the widths and margins, and floated one to the left and the other to the right. Both my partner and I had stated outright at the beginning of the session that we had trouble with positioning, so it was a bit of a struggle, and we mostly solved it through trial and error.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+  We used font-size to make the different texts similar in size to the original, we used the colors suggested for the text, unvisited and visited links, and the background. We added an image of Warren Buffet, and changed its border-radius to make it a circle instead of square. We added a different colored background for the company name at the top to make it more "modern".
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+  We used classes, and we chose to use those over ids because classes are more versatile: they can be applied to as many elements as you need, while ids can only be applied to one element.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  The actual code base had their formatting/styling within the html. In that aspect, we were following the best practices by using a separate CSS file, as that is considered better now. The one big difference between the formatting is that they used a table to display the links while we only used unordered lists. I'm not quite sure which one is better. I'm pretty sure I thought to use an unordered list in challenge 2.6 last week because the sample screenshot provided showed them in a list down the page, and I did not think to change that this week either.
+*/
+
