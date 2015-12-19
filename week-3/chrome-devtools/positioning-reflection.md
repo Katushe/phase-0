@@ -18,13 +18,13 @@ You can resize elements with CSS using the width and height properties. You can 
 
 **What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?**
 
-+Static is the default positioning used by the browser if you don't specify one of the others; it is just based off the HTML element order.
++ Static is the default positioning used by the browser if you don't specify one of the others; it is just based off the HTML element order.
 
-+Relative positioning moves an element from that default static position based on the amounts you assign to its top, bottom, right, and/or left properties.
++ Relative positioning moves an element from that default static position based on the amounts you assign to its top, bottom, right, and/or left properties.
 
-+Fixed positioning is based on the browser window-it will basically lock the element in place and it will stay in the same spot within the window even when you scroll down the page and other elements disappear from view.
++ Fixed positioning is based on the browser window-it will basically lock the element in place and it will stay in the same spot within the window even when you scroll down the page and other elements disappear from view.
 
-+Absolute positioning also moves an element based on assigned values of top, bottom, right, left. However, its "original" position isn't based on the static positioning but on its parent element. It will move relative to the top left corner of its parent, and if its parent element is just <html> then it will move relative to the top left corner of the page. A caveat is that the parent element must have relative or absolute positioning for it to work.
++ Absolute positioning also moves an element based on assigned values of top, bottom, right, left. However, its "original" position isn't based on the static positioning but on its parent element. It will move relative to the top left corner of its parent, and if its parent element is just <html> then it will move relative to the top left corner of the page. A caveat is that the parent element must have relative or absolute positioning for it to work.
 
 I found static and fixed to be the most straightforward. I found relative and absolute to be the most difficult, mostly because it took me a while to understand the difference between the two.
 
