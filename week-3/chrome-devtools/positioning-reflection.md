@@ -1,4 +1,12 @@
 ![exercise 1](/week-3/chrome-devtools/imgs/exercise_1.png)
+![exercise 2](/week-3/chrome-devtools/imgs/exercise_2.png)
+![exercise 3](/week-3/chrome-devtools/imgs/exercise_3.png)
+![exercise 4](/week-3/chrome-devtools/imgs/exercise_4.png)
+![exercise 5](/week-3/chrome-devtools/imgs/exercise_5.png)
+![exercise 6](/week-3/chrome-devtools/imgs/exercise_6.png)
+![exercise 7](/week-3/chrome-devtools/imgs/exercise_7.png)
+![exercise 8](/week-3/chrome-devtools/imgs/exercise_8.png)
+![exercise 9](/week-3/chrome-devtools/imgs/exercise_9.png)
 
 **How can you use Chrome's DevTools inspector to help you format or position elements?**
 Chrome's DevTools allow you to edit your HTML/CSS in-browser without affecting your actual files. So you can try out different formatting/positions and then only edit your actualy files when you find something that works for you. It also shows you what attributes an element has that have been inherited from a parent/have been set by the browser, which can cut down on unnecessary repeats.
