@@ -12,7 +12,7 @@
 
 # Your Solution Below
 
-#first solution, without using array method:
+#first solution using iteration instead of using an array method:
 def smallest_integer(list_of_nums)
   smallest = list_of_nums[0];
   for i in 1...list_of_nums.length
