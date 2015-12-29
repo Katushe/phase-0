@@ -23,7 +23,7 @@ def smallest_integer(list_of_nums)
   return smallest;
 end
 
-#second solution after refactering, using an array method
+#second solution after refactoring, using an array method
 =begin
 
 def smallest_integer(list_of_nums)
