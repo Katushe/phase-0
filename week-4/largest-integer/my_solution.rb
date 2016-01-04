@@ -16,18 +16,18 @@
 def largest_integer(list_of_nums)
   largest = list_of_nums[0]
   for i in 1...list_of_nums.length
-    if largest < list_of_nums[i];
-      largest = list_of_nums[i];
+    if largest < list_of_nums[i]
+      largest = list_of_nums[i]
     end
   end
-  return largest;
+  return largest
 end
 
 #second solution after refactoring, using an array method:
 
 =begin
 def largest_integer(list_of_nums)
-  sorted = list_of_nums.sort {|x,y| y <=> x};
-  return sorted[0];
+  sorted = list_of_nums.sort {|x,y| y <=> x}
+  return sorted[0]
 end
 =end
