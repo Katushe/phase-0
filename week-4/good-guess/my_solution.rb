@@ -5,5 +5,5 @@
 
 # Your Solution Below
 def good_guess?(num)
-  return num == 42;
+  return num == 42
 end
