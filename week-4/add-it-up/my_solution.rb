@@ -20,19 +20,19 @@
 # Calculate the sum of all numbers
 
 def total(array)
-  sum = 0;
+  sum = 0
   for i in 0...array.length
-    sum = sum + array[i];
-    i += 1;
+    sum = sum + array[i]
+    i += 1
   end
-  return sum;
+  return sum
 end
 
 
 # 3. total refactored solution
 
 def total(array)
- (array).reduce(:+);
+ (array).reduce(:+)
 end
 
 
@@ -48,17 +48,17 @@ end
 # 5. sentence_maker initial solution
 
 def sentence_maker(array)
-  string = '';
+  string = ''
   for i in 1...array.length
-    string = string + ' ' + array[i].to_s;
-    i += 1;
+    string = string + ' ' + array[i].to_s
+    i += 1
   end
-  return array[0].capitalize + string + '.';
+  return array[0].capitalize + string + '.'
 end
 
 
 # 6. sentence_maker refactored solution
 
 def sentence_maker(array)
-  (array).join(" ").capitalize + '.';
+  (array).join(" ").capitalize + '.'
 end
