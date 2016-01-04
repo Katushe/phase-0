@@ -14,20 +14,20 @@
 #first solution, using iteration:
 
 def shortest_string(list_of_words)
-  shortest = list_of_words[0];
+  shortest = list_of_words[0]
   for i in 1...list_of_words.length
     if shortest.length > list_of_words[i].length then
-      shortest = list_of_words[i];
+      shortest = list_of_words[i]
     end
   end
-  return shortest;
+  return shortest
 end
 
 #second solution, using array methods:
 
 =begin
 def shortest_string(list_of_words)
-  sorted = list_of_words.sort {|x,y| x.length <=>y.length};
-  return sorted[0];
+  sorted = list_of_words.sort {|x,y| x.length <=>y.length}
+  return sorted[0]
 end
 =end
