@@ -7,11 +7,11 @@
 
 #first solution using iteration:
 def array_concat(array_1, array_2)
-  cnct_array = array_1;
+  cnct_array = array_1
   for i in 0...array_2.length
-    cnct_array[cnct_array.length+i] = array_2[i];
+    cnct_array[cnct_array.length+i] = array_2[i]
   end
-  return cnct_array;
+  return cnct_array
 end
 
 
@@ -19,6 +19,6 @@ end
 
 =begin
 def array_concat(array_1,array_2)
-  array_1.concat(array_2);
+  array_1.concat(array_2)
 end
 =end
