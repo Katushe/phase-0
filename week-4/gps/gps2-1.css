@@ -1,34 +1,39 @@
 *{
   font-family:verdana;
 }
-header, footer, .column-1, .column-2{
+body{
+  width:100%;
+}
+header, footer{
   padding: 15px;
+}
+.column-1, .column-2{
+  padding: 20px;
 }
 header {
   background-color: red;
+  margin: -8px 0 0 -8px;
+  width: 100%;
 }
-
 footer {
-  background-color: #ff5050;
+  background-color: #cc0066 ;
   clear: both;
+  margin-left: -8px;
+  width:100%;
 }
-
-
+.column-1 {
+  background-color:#ff5050;
+  float: left;
+  margin-left: -8px;
+  width: 48%;
+}
 .column-2 {
  background-color: #cc0000;
  float: right;
- width: 45%;
-
-
-}
-
-.column-1 {
-  background-color: #cc0066;
-  float: left;
-  width: 45%;
-
-
-}
+ margin-right: -22px;
+ width: 48.495%;
+ padding-bottom: 43px;
+ }
 a{
   text-decoration: none;
 }
