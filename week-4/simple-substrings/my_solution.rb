@@ -6,8 +6,8 @@
 # Your Solution Below
 def welcome(address)
   if address.upcase.include? ' CA ' then
-    return 'Welcome to California';
+    return 'Welcome to California'
   else
-    return 'You should move to California';
+    return 'You should move to California'
   end
 end
