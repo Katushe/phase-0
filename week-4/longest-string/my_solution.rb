@@ -14,19 +14,19 @@
 # Your Solution Below
 
 def longest_string(list_of_words)
-  longest = list_of_words[0];
+  longest = list_of_words[0]
   for i in 1...list_of_words.length
     if longest.length < list_of_words[i].length then
-      longest = list_of_words[i];
+      longest = list_of_words[i]
     end
   end
-  return longest;
+  return longest
 end
 
 #second solution, using array methods
 =begin
 def longest_string(list_of_words)
-  sorted = list_of_words.sort {|x,y| y.length <=> x.length};
-  return sorted[0];
+  sorted = list_of_words.sort {|x,y| y.length <=> x.length}
+  return sorted[0]
 end
 =end
