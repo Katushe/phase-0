@@ -12,10 +12,10 @@ return the answer
 
 # Your Solution Below
 def factorial(number)
-  answer = 1;
+  answer = 1
   for i in 1..number
-    answer = answer * i;
-    i += 1;
+    answer = answer * i
+    i += 1
   end
-  return answer;
+  return answer
 end
