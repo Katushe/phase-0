@@ -171,19 +171,26 @@ amount_of_kfc_left = 20/1
 =begin
 Which error was the most difficult to read?
 
-  I found the first one most dificult to read, at first because I didn't quite understand what it meant by 'end-of-input' though I did understand that it wanted an end statement from 'keyword_end'.
+  I found the first one most dificult to read, even though, because of the hint, I wasn't too thrown off by the line #
+  in the error message as I know many others were- I realized that it was going through to the end of the file looking for that 
+  missing "end" statement.Instead I was thrown off since the error said it was expecting a 'keyword_end' but the method did 
+  already have an "end" statement.
 
 How did you figure out what the issue with the error was?
 
-  I had forgotten that while loops also needed an end statement so for a while I thought it somehow wasn't reaching the end statement that was included. Looking up loops for a refresher straightened it all out.
+  Eventally I realised that I had forgotten that while loops also needed their own end statement. I figured it out by looking at some
+  example loops but it still took me a while as somehow my brain just kept skipping over that bit in the loops I was looking at
+  (I'm more used to languages where methods open/close with curly braces rather than keywords).
 
 Were you able to determine why each error message happened based on the code?
 
-  Yes, I though most of the error messages provided enough information that I could figure out what the general problem was, and then it was easy to look through the code and figure out the specific problem with those lines.
+  Yes, I thought most of the error messages provided enough information that I could figure out what the general problem was, 
+  and then it was easy to look through the code and figure out the specific problem with those lines.
 
 When you encounter errors in your future code, what process will you follow to help you debug?
 
-I will read the error message first, and try to get a general understanding of what the problem might be so I know what to look for in the code. Then I will go look through the code in the line/area where it told me the error is to find/fix the problem.
+I will read the error message first, and try to get a general understanding of what the problem might be so I know what to look 
+for in the code. Then I will go look through the code in the line/area where it told me the error is to find/fix the problem.
 
 
 =end
