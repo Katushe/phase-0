@@ -17,13 +17,13 @@
 #First solution, using iteration:
 
 def count_between(list_of_integers, lower_bound, upper_bound)
-  count = 0;
+  count = 0
   for i in 0...list_of_integers.length
     if list_of_integers[i] >= lower_bound && list_of_integers[i] <= upper_bound
-      count +=1;
+      count +=1
     end
   end
-  return count;
+  return count
 end
 
 
@@ -31,6 +31,6 @@ end
 
 =begin
 def count_between(list_of_integers, lower_bound, upper_bound)
-  return list_of_integers.count {|x| x >= lower_bound && x <= upper_bound};
+  return list_of_integers.count {|x| x >= lower_bound && x <= upper_bound}
 end
 =end
