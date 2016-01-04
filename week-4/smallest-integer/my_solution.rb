@@ -14,20 +14,20 @@
 
 #first solution using iteration instead of using an array method:
 def smallest_integer(list_of_nums)
-  smallest = list_of_nums[0];
+  smallest = list_of_nums[0]
   for i in 1...list_of_nums.length
     if smallest > list_of_nums[i] then
-      smallest = list_of_nums[i];
+      smallest = list_of_nums[i]
     end
   end
-  return smallest;
+  return smallest
 end
 
 #second solution after refactoring, using an array method
 =begin
 
 def smallest_integer(list_of_nums)
-  return list_of_nums.sort[0];
+  return list_of_nums.sort[0]
 end
 
 =end
