@@ -25,6 +25,7 @@ def add_item(list, item, quantity=0)
   list[item] = quantity
 end
 
+#we had some extra time at the end of our session, so we worked on a method that allows you to add multiple items at once using a options hash
 def add_multiple_items(list, items={})
   items.each do |key, value|
     list[key] = value
@@ -73,3 +74,33 @@ update_item(groceries, "ice cream", 1)
 
 add_multiple_items(groceries, {"strawberries" => 2, "asparagus" => 2, "milk" => 1})
 look_pretty(groceries)
+
+
+#Reflection
+
+=begin
+What did you learn about pseudocode from working on this challenge?
+
+  I think it helps to write out the input/output so you can be sure you're including all the needed arguments and returning the right thing. In terms of writing out the steps, it wasn't very useful for some of the shorter methods where you only have one step to do, but it does help in longer methods to plans out the steps beforehand.
+
+What are the tradeoffs of using Arrays and Hashes for this challenge?
+
+  We decided that using a Hash was better, since you had to store two different pieces of information: the item you want to buy and the quantity of it you want to buy. It seemed easier to have the item as a  key and the quantity as the value, that way they are tied together.
+
+What does a method return?
+
+  If you include an explicit return statement, it will return whatever outputted by the expression connected to the return statement. Otherwise, it will return the output of the last expression that is evaluated in the method.
+
+What kind of things can you pass into methods as arguments?
+
+  You can pass an object of any type as an argument- strings, integers, floats, hashes, arrays, etc.
+
+How can you pass information between methods?
+
+  You can pass info between methods by utilizing the arguments in a way that lets you change the same variable without using a class, like we used "list" here as an argument in many of the methods. You can also use methods within other methods, like how we used look_pretty in create_list and add_item in update_item.
+
+What concepts were solidified in this challenge, and what concepts are still confusing?
+
+  The idea of passing information between methods was solidified in this challenge. I think the thing that most trips me up at this point is the sheer number of built-in methods there are, are knowing when/how to use them.
+
+=end
