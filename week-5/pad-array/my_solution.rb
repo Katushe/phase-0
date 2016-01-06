@@ -1,6 +1,6 @@
 # Pad an Array
 
-# I worked on this challenge [by myself, with: Heather Conklin]
+# I worked on this challenge [with: Heather Conklin]
 
 # I spent [0.75] hours on this challenge.
 
@@ -87,25 +87,35 @@ end
 =begin
 Were you successful in breaking the problem down into small steps?
 
-Yes. We started with the non-destructive pad and we broke it into steps like: make a copy, check the size so that we just return if the array is already big enough, then add in the new values and return the new array.
+  Yes. We started with the non-destructive pad and we broke it into steps like: make a copy, check the size so that 
+  we just return if the array is already big enough, then add in the new values and return the new array.
 
 Once you had written your pseudocode, were you able to easily translate it into code? What difficulties and successes did you have?
 
-My partner and I had started working in coderpad and hadn't realized that the methods were already defined for us in the files provided. So we had a different idea of how to define the method (instead of giving value a default value of nil in the argument we made it an optional value). Once we moved our code to our machines to test we saw the provided definitions, and it seemed more efficient so we reworked our solution to fit that instead.
+  My partner and I had started working in coderpad and hadn't realized that the methods were already defined for us 
+  in the files provided. So we had a different idea of how to define the method (instead of giving value a default value 
+  of nil in the argument we made it an optional value). Once we moved our code to our machines to test we saw the provided 
+  definitions, and it seemed more efficient so we reworked our solution to fit that instead.
 
 Was your initial solution successful at passing the tests? If so, why do you think that is? If not, what were the errors you encountered and what did you do to resolve them?
 
-We initially weren't copying the array properly in the non-destructive version and so the original array was still being affected, so we reworked it using .each to add each value from the original to the copy.
+  We initially weren't copying the array properly in the non-destructive version and so the original array was still being 
+  affected, so we reworked it using .each to add each value from the original to the copy.
 
 When you refactored, did you find any existing methods in Ruby to clean up your code?
 
-When making a copy, we used "dup" to duplicate the original array. We also used "fill" to increase the array's size/add the new values.
+  When making a copy, we used "dup" to duplicate the original array. We also used "fill" to increase the array's 
+  size/add the new values.
 
 How readable is your solution? Did you and your pair choose descriptive variable names?
 
-I think our solution is pretty readable. For the most part we used the variables suggested by the method definition provided, the only one we named ourselves was the copy array which we named result.
+  I think our solution is pretty readable. For the most part we used the variables suggested by the method definition 
+  provided, the only one we named ourselves was the copy array which we named result.
 
 What is the difference between destructive and non-destructive methods in your own words?
 
-A non-destructive method creates a copy of the original input object, and then any changes made within the method will only effect the new copy and leave the original as it was. A destructive method on the other hand, will make all the changes to that original object, effectively "destroying" the object you started with, since it won't exist in its original form anymore.
+  A non-destructive method creates a copy of the original input object, and then any changes made within the method will 
+  only effect the new copy and leave the original as it was. A destructive method on the other hand, will make all the 
+  changes to that original object, effectively "destroying" the object you started with, since it won't exist in its original 
+  form anymore.
 =end
