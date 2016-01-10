@@ -1,6 +1,6 @@
 # Die Class 1: Numeric
 
-# I worked on this challenge [by myself, with: ]
+# I worked on this challenge [by myself]
 
 # I spent [0.5] hours on this challenge.
 
