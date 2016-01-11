@@ -96,6 +96,27 @@ acct_groups(names2)
 
 
 
-
-
 # Reflection
+=begin
+
+What was the most interesting and most difficult part of this challenge?
+
+  The most difficult part was figuring out the best way to split the list up and keep track of each new array. I used nested loops, and figuring out what should happen inside/outside of each loop gave me a bit of trouble.
+
+Do you feel you are improving in your ability to write pseudocode and break the problem down?
+
+  I think I'm getting better at breaking the problem down into smaller steps. I think I need to work on brevity in my pseudocode as my steps tend to become long.
+
+Was your approach for automating this task a good solution? What could have made it even better?
+
+  I think my solution for splitting up the groups in the first place is pretty good. I ran out of time to really work on the bit where it checks whether the groups are each big enough, and I think that could be improved on, and probably integrated into the creation in the first place, since mine is kind if tacked on at the end.
+
+What data structure did you decide to store the accountability groups in and why?
+
+  In my initial solution I used a hash, mostly because I'm not quite comfortable with 2d arrays yet and trying to figure out how to iterate through it was giving me a lot of trouble, while I found a hash much easier to comprehend. When I moved on to refactoring I used a 2d array since each_slice took away the cofusion of iterating over it.
+
+What did you learn in the process of refactoring your initial solution? Did you learn any new Ruby methods?
+
+    This challenge more than any of the others really made me appreciate how much simpler it is to be able to use Ruby methods to iterate through an array rather than writing my own loops. I learned how to use each_slice to break an array into smaller arrays of a certain size.
+
+=end
