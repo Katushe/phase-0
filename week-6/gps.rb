@@ -1,6 +1,6 @@
 # Your Names
-# 1)
-# 2)
+# 1) Kathryn Garbacz
+# 2) Hagai Zwick
 
 # We spent [#] hours on this challenge.
 
@@ -37,6 +37,7 @@ p serving_size_calc("cake", 5)
 p serving_size_calc("cake", 7)
 p serving_size_calc("cookie", 1)
 p serving_size_calc("cookie", 10)
+p serving_size_calc("cupcake", 3)
 p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
