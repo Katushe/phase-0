@@ -72,3 +72,19 @@ startup_names.map!{|element|
   }
 
 p startup_names
+
+#Reflection
+=begin
+What are some general rules you can apply to nested arrays?
+
+  Elements in nested arrays are accessed much like in normal arrays, using square brackets, only with nested arrays you have a bracket representing each "level". Iterating over them is also very similar to normal arrays, but you have to nest the iteration as well.
+
+What are some ways you can iterate over nested arrays?
+
+  You can iterate over nested arrays using nested loops. You have an outer loop that iterates over the outer array. Within that loop, you check whether the current element is an array, and if it is, you create an inner loop that iterates over that inner array.
+
+Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+
+  "Kind_of?" was new to me, I've only used its close relative "is_a?" before, but they accomplish the same thing. In terms of modifying the arrays, we chose to use "map!", which we were both already familiar with, because it seems like the most straightforward way to transform the elements in an array, and when using the destructive version it is easy to modify the original array instead of creating a copy.
+
+=end
