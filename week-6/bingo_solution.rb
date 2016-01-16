@@ -259,13 +259,17 @@ How can you access coordinates in a nested array?
   Elements in a nested array are accessed much the same as in a singular array, in that you use the array
   name + the index in square brackets. However, since there are multiple arrays, there are multiple indexes,
   so you used mutiple square brackets, where the leftmost is the index in the outer array and then moving
-  rightward goes deeper and deeper. For example, in an array like arr = [[1,2,3]], if you're trying to access "2" you would use arr[0][1] since the inner array is at index 0 of the outer array and 2 is at index 1 of the inner array.
+  rightward goes deeper and deeper. For example, in an array like arr = [[1,2,3]], if you're trying to access 
+  "2" you would use arr[0][1] since the inner array is at index 0 of the outer array and 2 is at index 1 of the inner array.
 
 What methods did you use to access and modify the array?
 
-  I used a simple "each" to iterate through the array and then simple assignment (=) to modify it. I considered using map, but with map I would have to also explicitly assign the value to itself if the element is not equal to the number I'm looking for or it would make it nil. So it seemed simpler to use each and only modify the one I'm looking for.
+  I used a simple "each" to iterate through the array and then simple assignment (=) to modify it. I considered using map,
+  but with map I would have to also explicitly assign the value to itself if the element is not equal to the number I'm looking 
+  for or it would make it nil. So it seemed simpler to use each and only modify the one I'm looking for.
 
-Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
+Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, 
+what purpose does it serve, and how is it called?
 
   In my initial/refactored solutions, I didn't really need any new methods. However, once I started on the
   optional portion and then went even further than what it asked I learned quite a few new ones.
@@ -282,7 +286,13 @@ How did you determine what should be an instance variable versus a local variabl
 
 What do you feel is most improved in your refactored solution?
 
-  I changed my check function by putting all the cases into a single iteration instead of having a separate iteration included with each case, since it made the code look cleaner/less repetitive.
-  Most improved is probably the way I printed the "board". In my initial solution I just printed the "rows" one at a time, so the layout was board-like, but it still had all the trappings of arrays, like the commas and the brackets. Then in my refactored solution, I printed each element one at a time (but keeping the "rows" printing on the same line), this got rid of the commas/brackets. I also added spacing so that each element lines up nicely depending on whether the number has one or two digits. I also inserted an array to the front of the board containing "B.I.N.G.O" in my refactored solution to make the boards look more like real ones.
+  I changed my check function by putting all the cases into a single iteration instead of having a separate iteration 
+  included with each case, since it made the code look cleaner/less repetitive.
+  Most improved is probably the way I printed the "board". In my initial solution I just printed the "rows" one at a 
+  time, so the layout was board-like, but it still had all the trappings of arrays, like the commas and the brackets. 
+  Then in my refactored solution, I printed each element one at a time (but keeping the "rows" printing on the same line), 
+  this got rid of the commas/brackets. I also added spacing so that each element lines up nicely depending on whether the 
+  number has one or two digits. I also inserted an array to the front of the board containing "B.I.N.G.O" in my refactored 
+  solution to make the boards look more like real ones.
 
 =end
