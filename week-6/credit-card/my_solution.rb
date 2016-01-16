@@ -1,8 +1,8 @@
 # Class Warfare, Validate a Credit Card Number
 
 
-# I worked on this challenge [by myself, with: ].
-# I spent [#] hours on this challenge.
+# I worked on this challenge [with: Peter Leong].
+# I spent [1.5] hours on this challenge.
 
 # Pseudocode
 
@@ -86,3 +86,18 @@ class CreditCard
 end
 
 #Reflection
+=begin
+What was the most difficult part of this challenge for you and your pair?
+
+  It took us a while to realise that we should pass number as an argument to double and sum
+  and then call them from within check_card. We also had a bit of trouble with spliting up the digits for suming up, since first you have to turn them into strings, then join them, then split them again.
+
+What new methods did you find to help you when you refactored?
+
+  Reduce with the argument (:+) as a way to sum up an array was new to me/
+
+What concepts or learnings were you able to solidify in this challenge?
+
+  How class methods/variables work when it comes to driver code. For a while, my pair and I were explicitly calling both double and sum in our driver code, and while it seemed to be working, we were failing the tests. So the idea of calling a method within another method instead of outside of the class became clearer once we realised we should call them in check_card.
+
+=end
