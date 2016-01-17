@@ -6,9 +6,16 @@
 
 # Pseudocode
 
-# Input:
-# Output:
+# Input: a name as a string
+# Output: print that name within a greeting
 # Steps:
+  #in the NameData class
+    #give the name variable  a attr_reader method so you can read it in the other method
+    #create an initialize method that creates an instance of the class and assigns it the name variable
+  #in the Greetings class
+    #create an initialize method that calls the initialising method from NameData to create a specific instance of that class
+    #create a hello method that prints out the name within the string "Hello (name)! How wonderfule to see you today"
+  
 
 class NameData
   attr_reader :name
