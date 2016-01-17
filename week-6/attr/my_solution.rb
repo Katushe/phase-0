@@ -131,6 +131,8 @@ What is confusing to you about these methods?
 
   I understand the idea behind them and how to use them when calling methods in something like
   driver code, but I think I need to work through a few more examples on using them to pass
-  values between classes before I'm fully comfortable with how that works (it took me a while to realise I had to call name_data.name in the hello method-couldn't understand why the method was returning the object id instead of the string when I just called name_data).
+  values between classes before I'm fully comfortable with how that works (it took me a while to realise I had to call 
+  name_data.name in the hello method-couldn't understand why the method was returning the object id instead of the string
+  when I just called name_data).
 
 =end
