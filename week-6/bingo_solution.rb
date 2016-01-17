@@ -296,10 +296,11 @@ what purpose does it serve, and how is it called?
 
 How did you determine what should be an instance variable versus a local variable?
 
-  If it was something that had to be used in a multiple methods and was directly tied to a particular
-  instance of the class I used instance variables, otherwise I used a local variable. For example, I used
-  the array ["B", "I", "N", "G", "O"] in two different methods, but it didn't really make sense to make it
-  an instance variable
+  Instance variables can be accessed anywhere within the class while local variables can only be accessed 
+  within the method where they are declared. So, if it was something that had to be used in a multiple methods
+  and was directly tied to a particular instance of the class I used instance variables, otherwise I used a local 
+  variable. For example, even though I used the array ["B", "I", "N", "G", "O"] in two different methods, it didn't really 
+  make sense to make it an instance variable.
 
 What do you feel is most improved in your refactored solution?
 
