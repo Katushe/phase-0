@@ -1,4 +1,4 @@
-# Release 4:
+# Release 4(Again):
 
 # refactor this code to move method assignments to attr_ attributes. Like we did with age. Let's pare down the superfluous code.
 
@@ -7,7 +7,7 @@
 class Profile
 # first let's finish refactoring this code
 # note that there is a way to add all of the variables like :age on one line, how would we do that?
-  attr_accessor :age
+  attr_accessor :age, :name, :occupation
 
   def initialize
     @age = 27
@@ -25,21 +25,21 @@ class Profile
     puts
   end
 
-  def what_is_name
-    @name
-  end
+  # def what_is_name
+  #   @name
+  # end
 
-  def change_my_name=(new_name)
-    @name = new_name
-  end
+  # def change_my_name=(new_name)
+  #   @name = new_name
+  # end
 
-  def what_is_occupation
-    @occupation
-  end
+  # def what_is_occupation
+  #   @occupation
+  # end
 
-  def change_my_occupation=(new_occupation)
-    @occupation = new_occupation
-  end
+  # def change_my_occupation=(new_occupation)
+  #   @occupation = new_occupation
+  # end
 
 
 end
