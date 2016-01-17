@@ -223,33 +223,33 @@ end
 
 
 #DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
-board = [[47, 44, 71, 8, 88],
-        [22, 69, 75, 65, 73],
-        [83, 85, 97, 89, 57],
-        [25, 31, 96, 68, 51],
-        [75, 70, 54, 80, 83]]
-new_game = BingoBoard.new(board)
-new_game.call
-new_game.check
-new_game.display
-new_game.call
-new_game.check
-new_game.display
-new_game.call
-new_game.check
-new_game.display
+# board = [[47, 44, 71, 8, 88],
+#         [22, 69, 75, 65, 73],
+#         [83, 85, 97, 89, 57],
+#         [25, 31, 96, 68, 51],
+#         [75, 70, 54, 80, 83]]
+# new_game = BingoBoard.new(board)
+# new_game.call
+# new_game.check
+# new_game.display
+# new_game.call
+# new_game.check
+# new_game.display
+# new_game.call
+# new_game.check
+# new_game.display
 
-puts #to separate original and legal
-new_game_legal = BingoBoard_legal.new
-new_game_legal.call
-new_game_legal.check
-new_game_legal.won?
-#checking to make sure my won? function will return true once it finds a 5-in-a-row
-until new_game_legal.won? == true
-  new_game_legal.call
-  new_game_legal.check
-    new_game_legal.display
-end
+# puts #to separate original and legal
+# new_game_legal = BingoBoard_legal.new
+# new_game_legal.call
+# new_game_legal.check
+# new_game_legal.won?
+# #checking to make sure my won? function will return true once it finds a 5-in-a-row
+# until new_game_legal.won? == true
+#   new_game_legal.call
+#   new_game_legal.check
+#     new_game_legal.display
+# end
 
 
 
