@@ -1,0 +1,1408 @@
+"The chosen one is O-73"
+  B   I   N   G   O 
+ 47  44  71   8  88 
+ 22  69  75  65   X 
+ 83  85  97  89  57 
+ 25  31  96  68  51 
+ 75  70  54  80  83 
+"The chosen one is I-72"
+  B   I   N   G   O 
+ 47  44  71   8  88 
+ 22  69  75  65   X 
+ 83  85  97  89  57 
+ 25  31  96  68  51 
+ 75  70  54  80  83 
+"The chosen one is I-58"
+  B   I   N   G   O 
+ 47  44  71   8  88 
+ 22  69  75  65   X 
+ 83  85  97  89  57 
+ 25  31  96  68  51 
+ 75  70  54  80  83 
+"The chosen one is O-81"
+  B   I   N   G   O 
+ 47  44  71   8  88 
+ 22  69  75  65   X 
+ 83  85  97  89  57 
+ 25  31  96  68  51 
+ 75  70  54  80  83 
+"The chosen one is O-69"
+  B   I   N   G   O 
+ 47  44  71   8  88 
+ 22  69  75  65   X 
+ 83  85  97  89  57 
+ 25  31  96  68  51 
+ 75  70  54  80  83 
+"The chosen one is B-76"
+  B   I   N   G   O 
+ 47  44  71   8  88 
+ 22  69  75  65   X 
+ 83  85  97  89  57 
+ 25  31  96  68  51 
+ 75  70  54  80  83 
+
+
+"Your Board is:"
+  B   I   N   G   O 
+  7  29  41  49  67 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60  65 
+  5  22  40  52  75 
+"The chosen one is O-65"
+You have it!
+false
+false
+"The chosen one is O-67"
+You have it!
+  B   I   N   G   O 
+  7  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is N-45"
+  B   I   N   G   O 
+  7  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is G-48"
+  B   I   N   G   O 
+  7  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is G-58"
+  B   I   N   G   O 
+  7  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is I-28"
+  B   I   N   G   O 
+  7  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is G-59"
+  B   I   N   G   O 
+  7  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is B-7"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is N-31"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is I-19"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is I-18"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  8  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is B-8"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is B-4"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is N-37"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is G-50"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is I-20"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is O-65"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is B-7"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  5  22  40  52  75 
+false
+"The chosen one is B-5"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  X  22  40  52  75 
+false
+"The chosen one is O-66"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  X  22  40  52  75 
+false
+"The chosen one is O-61"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  X  22  40  52  75 
+false
+"The chosen one is B-4"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  X  22  40  52  75 
+false
+"The chosen one is G-47"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  X  22  40  52  75 
+false
+"The chosen one is N-33"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46  72 
+  X  25  44  60   X 
+  X  22  40  52  75 
+false
+"The chosen one is O-72"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22  40  52  75 
+false
+"The chosen one is N-40"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is G-58"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is G-59"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is O-62"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is N-42"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is O-72"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is O-74"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is G-59"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is N-31"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is G-53"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is O-72"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is B-2"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is G-58"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is N-31"
+  B   I   N   G   O 
+  X  29  41  49   X 
+ 12  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is B-12"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is N-38"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is N-31"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is B-12"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is B-11"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is I-28"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is I-19"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is G-50"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is O-65"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is N-40"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is O-67"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is B-3"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is N-33"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is I-21"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is I-20"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is O-61"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is G-53"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X  52  75 
+false
+"The chosen one is G-52"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57  69 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-69"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-27"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-19"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-58"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is B-5"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-72"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-37"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-37"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-66"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-69"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-17"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-20"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-47"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-31"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-70"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-53"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-53"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-19"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-21"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-23"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-38"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is B-1"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-53"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-38"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-40"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is B-11"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-45"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is B-9"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-19"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is B-9"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-38"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-19"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-47"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-68"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-73"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is B-8"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-47"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-58"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30  34  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-34"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-27"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-62"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-21"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-59"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-43"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-21"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X  46   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is G-46"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is B-7"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is N-32"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-28"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-68"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-67"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is O-71"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X  22   X   X  75 
+false
+"The chosen one is I-22"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-19"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-62"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-9"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-55"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-73"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-26"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-16"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-54"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is N-35"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-74"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-73"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-48"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-23"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-68"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-9"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-23"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-9"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-73"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-12"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-47"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X  25  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-25"
+You have it!
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-17"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-26"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-48"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-21"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is N-38"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-5"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-50"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-70"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-7"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-64"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-22"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-28"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-7"
+  B   I   N   G   O 
+  X  29  41  49   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-49"
+You have it!
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X  30   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-30"
+You have it!
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-15"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-55"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-3"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-13"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is N-42"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is N-39"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is N-31"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-23"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is N-45"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is N-39"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is N-43"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-74"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-69"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-53"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-15"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-15"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-74"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-51"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is B-5"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is O-68"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is I-20"
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X  57   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+false
+"The chosen one is G-57"
+You have it!
+  B   I   N   G   O 
+  X  29  41   X   X 
+  X   X   X   X   X 
+ 14  24   X   X   X 
+  X   X  44  60   X 
+  X   X   X   X  75 
+You got BINGO!!
+true

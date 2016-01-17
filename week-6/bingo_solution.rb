@@ -54,9 +54,11 @@ class BingoBoard
       @bingo_board.each{|row| row[3] = 'X' if row[3] == @call_number}
     else @bingo_board.each{|row| row[4] = 'X' if row[4] == @call_number}
     end
-    @bingo_board.each{|row| p row}
   end
 
+  def display
+    @bingo_board.each{|row| p row}
+  end
 end
 
 # Refactored Solution
@@ -87,6 +89,9 @@ class BingoBoard
         row[4] = 'X' if  row[4] == @call_number
       end
     }
+  end
+
+  def display
     @bingo_board.each{|row|
       row.each{|x|
         if x.to_s.length == 1
@@ -184,7 +189,10 @@ class BingoBoard_legal
         end
       end
     }
-    @bingo_board.each{|row|
+  end
+
+  def display
+     @bingo_board.each{|row|
       row.each{|x|
         if x.to_s.length == 1
           print "  #{x} "
@@ -215,24 +223,33 @@ end
 
 
 #DRIVER CODE (I.E. METHOD CALLS) GO BELOW THIS LINE
-# board = [[47, 44, 71, 8, 88],
-#         [22, 69, 75, 65, 73],
-#         [83, 85, 97, 89, 57],
-#         [25, 31, 96, 68, 51],
-#         [75, 70, 54, 80, 83]]
-# new_game = BingoBoard.new(board)
-# new_game.call
-# new_game.check
-# puts #to separate original and legal
-# new_game_legal = BingoBoard_legal.new
-# new_game_legal.call
-# new_game_legal.check
-# new_game_legal.won?
-# #checking to make sure my won? function will return true once it finds a 5-in-a-row
-# until new_game_legal.won? == true
-#   new_game_legal.call
-#   new_game_legal.check
-# end
+board = [[47, 44, 71, 8, 88],
+        [22, 69, 75, 65, 73],
+        [83, 85, 97, 89, 57],
+        [25, 31, 96, 68, 51],
+        [75, 70, 54, 80, 83]]
+new_game = BingoBoard.new(board)
+new_game.call
+new_game.check
+new_game.display
+new_game.call
+new_game.check
+new_game.display
+new_game.call
+new_game.check
+new_game.display
+
+puts #to separate original and legal
+new_game_legal = BingoBoard_legal.new
+new_game_legal.call
+new_game_legal.check
+new_game_legal.won?
+#checking to make sure my won? function will return true once it finds a 5-in-a-row
+until new_game_legal.won? == true
+  new_game_legal.call
+  new_game_legal.check
+    new_game_legal.display
+end
 
 
 
@@ -259,16 +276,16 @@ How can you access coordinates in a nested array?
   Elements in a nested array are accessed much the same as in a singular array, in that you use the array
   name + the index in square brackets. However, since there are multiple arrays, there are multiple indexes,
   so you used mutiple square brackets, where the leftmost is the index in the outer array and then moving
-  rightward goes deeper and deeper. For example, in an array like arr = [[1,2,3]], if you're trying to access 
+  rightward goes deeper and deeper. For example, in an array like arr = [[1,2,3]], if you're trying to access
   "2" you would use arr[0][1] since the inner array is at index 0 of the outer array and 2 is at index 1 of the inner array.
 
 What methods did you use to access and modify the array?
 
   I used a simple "each" to iterate through the array and then simple assignment (=) to modify it. I considered using map,
-  but with map I would have to also explicitly assign the value to itself if the element is not equal to the number I'm looking 
+  but with map I would have to also explicitly assign the value to itself if the element is not equal to the number I'm looking
   for or it would make it nil. So it seemed simpler to use each and only modify the one I'm looking for.
 
-Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, 
+Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs,
 what purpose does it serve, and how is it called?
 
   In my initial/refactored solutions, I didn't really need any new methods. However, once I started on the
@@ -286,13 +303,13 @@ How did you determine what should be an instance variable versus a local variabl
 
 What do you feel is most improved in your refactored solution?
 
-  I changed my check function by putting all the cases into a single iteration instead of having a separate iteration 
+  I changed my check function by putting all the cases into a single iteration instead of having a separate iteration
   included with each case, since it made the code look cleaner/less repetitive.
-  Most improved is probably the way I printed the "board". In my initial solution I just printed the "rows" one at a 
-  time, so the layout was board-like, but it still had all the trappings of arrays, like the commas and the brackets. 
-  Then in my refactored solution, I printed each element one at a time (but keeping the "rows" printing on the same line), 
-  this got rid of the commas/brackets. I also added spacing so that each element lines up nicely depending on whether the 
-  number has one or two digits. I also inserted an array to the front of the board containing "B.I.N.G.O" in my refactored 
+  Most improved is probably the way I printed the "board". In my initial solution I just printed the "rows" one at a
+  time, so the layout was board-like, but it still had all the trappings of arrays, like the commas and the brackets.
+  Then in my refactored solution, I printed each element one at a time (but keeping the "rows" printing on the same line),
+  this got rid of the commas/brackets. I also added spacing so that each element lines up nicely depending on whether the
+  number has one or two digits. I also inserted an array to the front of the board containing "B.I.N.G.O" in my refactored
   solution to make the boards look more like real ones.
 
 =end
