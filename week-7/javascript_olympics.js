@@ -1,4 +1,4 @@
- // JavaScript Olympics
+// JavaScript Olympics
 
 // I paired [by with: Jonathan Silvestri] on this challenge.
 
@@ -8,6 +8,7 @@
 
 // Bulk Up
 
+//my pair and I were a bit unlear on the instructions, our first attempt here had the function itself printing the string instead of just adding the printing as a property
 // function win(array) {
 // for (var x in array) {
 //   array[x].win = "won the ";
@@ -16,31 +17,36 @@
 // }
 
 function win(array) {
-for (var x in array) {
-  array[x].win = function(){
-    console.log(array[x].name + " won the " + array[x].event + "!");
+  function add_win(obj) {
+    obj.win = function() {
+      console.log(obj.name + " won the " + obj.event + "!");
+    }
   }
- }
- return athletes;
+  for (var x in array) {
+    add_win(array[x]);
+  }
+  return athletes;
 }
 
-var athletes = [];
-athletes[0] = {
+var athletes = [
+{
   name: "Sarah Hughes",
   event: "Ladies Singles",
-};
-athletes[1] = {
+},
+{
   name: "Derek Jeter",
   event: "World Series",
-};
-
-athletes[2] = {
+},
+{
   name: "Tom Brady",
   event: "Super Bowl",
-};
+}];
+
 
 athletes = win(athletes);
+athletes[0].win();
 athletes[1].win();
+athletes[2].win();
 
 
 // Jumble your words
@@ -80,3 +86,18 @@ var michaelPhelps = new Athlete("Michael Phelps", 29, "swimming", "It's medicina
 
 console.log(michaelPhelps.constructor === Athlete)
 console.log(michaelPhelps.name + " " + michaelPhelps.sport + " " + michaelPhelps.quote)
+
+/*
+What JavaScript knowledge did you solidify in this challenge?
+
+  How to bulk-modify objects(since before I had only done them one at a time) and how to set functions as properties of an object(since before I had only done strings or other objects).
+
+What are constructor functions?
+
+  A constructor function is a function that allows you to make many objects of the same "type" without having to use the object-literal way for each one.
+
+How are constructors different from Ruby classes (in your research)?
+
+  They are similar in that they allow you to create objects of the same type, but constructors seem to be more analogous to the initialize method within a class. As far as I can tell, when you create a constructor, it can assign properties to a new object, but those properties can't be functions. If you want to add a function to an object you use something called a prototype. So this is like how the initialize function in Ruby classes only assigns the instance variables and then the methods are defined elsewhere in the class.
+
+*/
