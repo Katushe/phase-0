@@ -1,7 +1,7 @@
 # Virus Predictor
 
-# I worked on this challenge [by myself, with: ].
-# We spent [#] hours on this challenge.
+# I worked on this challenge [with: Tim Kelly ].
+# We spent [1] hours on this challenge.
 
 # EXPLANATION OF require_relative
 # allows you to link files in Ruby
@@ -66,7 +66,7 @@ class VirusPredictor
     # by additional factors we haven't added into this functionality.
 
     # speed = 0.0
-
+    #old version
     # if @population_density >= 200
     #   speed += 0.5
     # elsif @population_density >= 150
@@ -81,17 +81,12 @@ class VirusPredictor
 
     speed = 0.0
 
-    speed +=  if @population_density >= 200
-                0.5
-              elsif @population_density >= 150
-                1
-              elsif @population_density >= 100
-                1.5
-              elsif @population_density >= 50
-                2
-              else
-                2.5
-              end
+    speed +=  @population_density >= 200 ? 0.5 :
+              @population_density >= 150 ? 1 :
+              @population_density >= 100 ? 1.5 :
+              @population_density >= 50 ? 2 :
+              2.5
+
 
     puts " and will spread across the state in #{speed} months.\n\n"
 
@@ -104,7 +99,7 @@ end
 # DRIVER CODE
  # initialize VirusPredictor for each state
 
-states.each {|state, value|
+STATE_DATA.each {|state, value|
   current_state = VirusPredictor.new(state, value[:population_density], value[:population] )
   current_state.virus_effects
 }
@@ -127,3 +122,26 @@ states.each {|state, value|
 
 #population density is number of people per square mile as of 2012
 #this data is updated every year with estimates from a 10 year census
+
+=begin
+What are the differences between the two different hash syntaxes shown in the state_data file?
+
+  One uses strings as keys and uses the old way of assigning values, "=>". The other has only become available in newer versions of Ruby, where you use symbols as the keys and use a colon for assignment.
+
+What does require_relative do? How is it different from require?
+
+  Require_relative is how you link files in Ruby. Since we added require_relative 'state_data' in this file, we were able to use the contents of state_data.rb in this file. Unlike require, require_relative lets you use a relative path for the files you want to include.
+
+What are some ways to iterate through a hash?
+
+  You could create your own loop, or you could use one of the built-in functions, such as each (just remember to specify both the key and value to iterate properly.)
+
+When refactoring virus_effects, what stood out to you about the variables, if anything?
+
+  It seemed repetitive to use the variables as arguments, especially since they were instance variables but weren't being treated as instance variabled there (no @ symbol)
+
+What concept did you most solidify in this challenge?
+
+  The scope of instance variables and how to deal with functions that you don't want to explicitly call outside of the class-i.e. by creating a sort of "helper" function within the class that makes calls to those.
+
+=end
