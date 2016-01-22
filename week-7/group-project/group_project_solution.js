@@ -1,0 +1,9 @@
+/*
+As a user...
+
+  I want a sum function that can add up a group of numbers.
+
+  I want a mean function that can give me the average of a group of numbers.
+
+  I want a median function that can give me the median of a group of numbers.
+*/
