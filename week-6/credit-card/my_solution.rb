@@ -71,17 +71,18 @@ class CreditCard
     @number = number.to_s.split('')
   end
 
+  def check_card
+    double
+    sum % 10 == 0 ? true : false
+  end
+
+  private
   def double
-     @number.map!{|x| @number.find_index(x).even? ? x.to_i * 2 : x = x.to_i }
+    @number.map!{|x| @number.find_index(x).even? ? x.to_i * 2 : x = x.to_i }
   end
 
   def sum
     @number.map!{|x| x.to_s}.join('').split('').map!{|x| x.to_i}.reduce(:+)
-  end
-
-  def check_card
-    double
-    sum % 10 == 0 ? true : false
   end
 
 end
