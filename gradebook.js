@@ -1,15 +1,11 @@
 /*
 Gradebook from Names and Scores
-
 I worked on this challenge [by myself, with:]
 This challenge took me [#] hours.
-
 You will work with the following two variables.  The first, students, holds the names of four students.
 The second, scores, holds groups of test scores.  The relative positions of elements within the two
 variables match (i.e., 'Joseph' is the first element in students; his scores are the first value in scores.).
-
 Do not alter the students and scores code.
-
 */
 
 var students = ["Joseph", "Susan", "William", "Elizabeth"]
@@ -28,16 +24,59 @@ var scores = [ [80, 70, 70, 100],
 // Write your code below.
 
 
+var gradebook = {};
 
+for (var i in students){
+  //var j = 0;
+  gradebook[students[i]] = {
+    testScores: scores[i]
+  };
+}
 
+gradebook.addScore = function(name, score){
+  gradebook[name].testScores.push(score);
+}
 
+gradebook.getAverage = function(name){
+  return average(gradebook[name].testScores);
+};
 
+function average(grades){
+  var sum = 0;
+  for (var i in grades){
+    sum += grades[i];
+  }
+  return sum/grades.length;
+}
+console.log(gradebook);
 
 
 // __________________________________________
 // Refactored Solution
 
+var gradebook = {};
 
+for (var i in students){
+  //var j = 0;
+  gradebook[students[i]] = {
+    testScores: scores[i]
+  };
+}
+
+gradebook.addScore = function(name, score){
+  gradebook[name].testScores.push(score);
+}
+
+gradebook.getAverage = function(name){
+  return average(gradebook[name].testScores);
+};
+
+function average(grades){
+  var sum = grades.reduce(function(a, b) {
+  return a + b;
+});
+  return sum/grades.length;
+}
 
 
 
@@ -47,9 +86,24 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Reflect
 
+/*
+What did you learn about adding functions to objects?
 
+  I learned that when you do it outside of the original declaration of the object, its very similar
+  to defining a function using the function expression way, just in this case instead of doing
+  "var name = function(){}" you do "object.property = function(){}".
 
+How did you iterate over nested arrays in JavaScript?
 
+  We used a for loop that iterated over the array using the index, and then accessed the value at
+  each index.
+
+Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+
+  We used reduce to sum up the grades in order to get the average. You call reduce on an array, and
+  you pass it two numbers as arguments and then what do with those numbers(in this case add them)
+  and it will iterate through the array.
+*/
 
 
 
@@ -123,5 +177,4 @@ assert(
 assert(
   (gradebook.getAverage("Joseph") === 80),
   "gradebook's getAverage should return 80 if passed 'Joseph'.",
-  "9. "
-)
+  "9. ")
