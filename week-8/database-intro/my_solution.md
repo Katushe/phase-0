@@ -2,42 +2,42 @@
 
 2. SELECT * FROM regions
 
-3. SELECT state_name, population
+3. SELECT state_name, population  
    FROM states
 
-4. SELECT state_name, population
-   FROM states
+4. SELECT state_name, population  
+   FROM states  
    ORDER BY population DESC;
 
-5. SELECT state_name
-   FROM states
+5. SELECT state_name  
+   FROM states  
    WHERE region_id = 7;
 
-6. SELECT state_name, population_density
-   FROM states
-   WHERE population_density > 50
+6. SELECT state_name, population_density  
+   FROM states  
+   WHERE population_density > 50  
    ORDER BY population_density ASC;
 
    (or you can leave off the 'ASC', since the default order is ascending)
 
-7. SELECT state_name
-   FROM states
+7. SELECT state_name  
+   FROM states  
    WHERE population > 1000000 AND population < 1500000;
 
-8. SELECT state_name, region_id
-   FROM states
+8. SELECT state_name, region_id  
+   FROM states  
    ORDER BY region_id ASC;
 
    (or you can leave off the 'ASC', since the default order is ascending)
 
-9. SELECT region_name
-   FROM regions
+9. SELECT region_name  
+   FROM regions  
    WHERE region_name LIKE "%Central%";
 
-10. SELECT region_name, state_name
-    FROM states
-    INNER JOIN regions
-    ON states.region_id = regions.id
+10. SELECT region_name, state_name  
+    FROM states  
+    INNER JOIN regions  
+    ON states.region_id = regions.id  
     ORDER BY region_id ASC;
 
     (or you can leave off the 'ASC', since the default order is ascending)
