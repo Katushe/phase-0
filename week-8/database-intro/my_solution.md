@@ -37,7 +37,7 @@
 10. SELECT region_name, state_name  
     FROM states  
     INNER JOIN regions  
-    ON states.region_id = regions.id  
+      ON states.region_id = regions.id  
     ORDER BY region_id ASC;
 
     (or you can leave off the 'ASC', since the default order is ascending)
