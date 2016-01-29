@@ -1,8 +1,7 @@
-
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
-// This challenge took me [#] hours.
+// I worked on this challenge with: Heather Conklin
+// This challenge took me [2] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
 var votes = {
@@ -34,6 +33,9 @@ var votes = {
   "Zane": { president: "Louise", vicePresident: "Hermann", secretary: "Fred", treasurer: "Mary" }
 }
 
+
+
+
 // Tally the votes in voteCount.
 var voteCount = {
   president: {},
@@ -42,17 +44,17 @@ var voteCount = {
   treasurer: {}
 }
 
+
+
 /* The name of each student receiving a vote for an office should become a property
 of the respective office in voteCount.  After Alex's votes have been tallied,
 voteCount would be ...
-
   var voteCount = {
     president: { Bob: 1 },
     vicePresident: { Devin: 1 },
     secretary: { Gail: 1 },
     treasurer: { Kerry: 1 }
   }
-
 */
 
 
@@ -65,31 +67,118 @@ var officers = {
   treasurer: undefined
 }
 
+
+
+
+
 // Pseudocode
+/*
+working from the inside out:
+input: ticket object for each student that tells you who they voted for in each office
+output: a property in voteCount for each office that contains the names of the people who
+  received at least one vote for that office and the total votes for each of the names
+
+Steps:
+ iterate over the object votes
+ pull out the 'president' vote for each student and see if that name already exists in the
+   voteCount 'president' object.
+      if it does increment the tally of votes for that name
+      if it doesn't exist, add that name to the property 'president' with a value of 1
+ repeat for the other offices
+
+
+ for each office in voteCount, find the name with the most votes and update the
+   value for that property in the officers object with that name
+
+*/
 
 
 // __________________________________________
 // Initial Solution
 
 
+for (var voter in votes) { // gets the name of the voter
+  var ticket = votes[voter]; //gets the voter's choices
+  for (var office in ticket) { // gets the office being voted for
+    var candidate = ticket[office]; //gets the name of the person the student voted for
+    if(voteCount[office].hasOwnProperty(candidate)) {
+      voteCount[office][candidate] ++;
+    }
+    else voteCount[office][candidate] = 1;
+  }
+}
 
-
-
+for (var office in voteCount){//gets the name of the office
+  var candidates = voteCount[office]; //gets the names of the candidates for that office
+  var current_max = 1;
+  var winner = "";
+  for (var candidate in candidates){//gets the name of the candidate
+    var votes = voteCount[office][candidate]; //gets the number of votes for that candidate
+      if (votes > current_max){
+        winner = candidate;
+        current_max = votes;
+      }
+  }
+  officers[office] = winner;
+}
 
 
 // __________________________________________
 // Refactored Solution
 
+for (var voter in votes) {
+  if(votes.hasOwnProperty(voter)){
+    var ticket = votes[voter];
+    for (var office in ticket) {
+      if (ticket.hasOwnProperty(office)){
+        var candidate = ticket[office];
+        (voteCount[office].hasOwnProperty(candidate)) ? voteCount[office][candidate] ++ : voteCount[office][candidate] = 1;
+      }
+    }
+  }
+}
 
+for (var office in voteCount){
+  if (voteCount.hasOwnProperty(office)){
+    var candidates = voteCount[office];
+    var winner = Object.keys(candidates)[0];//gets the first candidate for something to compare to
+    for (var candidate in candidates){
+      if (candidates.hasOwnProperty(candidate)){
+        if (voteCount[office][candidate] > voteCount[office][winner])
+          winner = candidate;
+      }
+    }
+    officers[office] = winner;
+  }
+}
 
 
 
 
 // __________________________________________
 // Reflection
+/*
+What did you learn about iterating over nested objects in JavaScript?
 
+  It's a bit more complicated than Ruby (so many for loops!). We learned that the variable in the for
+  loop definition only gives you the key/index (for example, in "for (var voter in votes)" voter only
+  gets you the name of the voter). So, you then need to pass that in to the object again to get its
+  value (using the same example, we had to have "var ticket = votes[voter]" to access the information
+  on who that person voted for).
 
+Were you able to find useful methods to help you with this?
 
+  We used "hasOwnProperty" to check if a name had already been added to the tallying, if it was then
+  we could just increment the count for it and if it didn't then we had to add the name first.
+  We also used "keys" to make the candidate names into an array: this is the only way we could think
+  of to access the "first" property of an object without explicitly knowing what the key is, so that
+  we could then compare the values without needing two variables like we had in our initial solution.
+
+What concepts were solidified in the process of working through this challenge?
+
+  How to iterate over objects, especially nested ones, in JavaScript. I think it helped me get better
+  at nested for loops as well (so many parentheses/brackets to keep track of).
+*/
 
 
 
