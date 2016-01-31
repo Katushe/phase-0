@@ -2,7 +2,7 @@
 
 
 # I worked on this challenge [by myself].
-# This challenge took me [0.75] hours.
+# This challenge took me [1] hours.
 
 # Pseudocode
 =begin
