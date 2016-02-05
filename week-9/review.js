@@ -16,6 +16,7 @@ DEFINE grocerylist prototype with the following functions:
   deleteItem, which takes in an item name
       remove this.item
   updateItem, which takes in an item name and amount
+      set this.item to amount
 
 */
 
